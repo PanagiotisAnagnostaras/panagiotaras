@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/panagiotaras/static/css/main.b7e611f7.css",
-    "main.js": "/panagiotaras/static/js/main.ae6b8de0.js",
+    "main.css": "/panagiotaras/static/css/main.cf55d35f.css",
+    "main.js": "/panagiotaras/static/js/main.f6ebfcb6.js",
     "static/js/453.c7e09efa.chunk.js": "/panagiotaras/static/js/453.c7e09efa.chunk.js",
     "static/media/thinker.jpg": "/panagiotaras/static/media/thinker.05592c3857e6c65c021a.jpg",
     "static/media/pendulum.png": "/panagiotaras/static/media/pendulum.a2627c5d5a0fc56f4515.png",
     "index.html": "/panagiotaras/index.html",
-    "main.b7e611f7.css.map": "/panagiotaras/static/css/main.b7e611f7.css.map",
-    "main.ae6b8de0.js.map": "/panagiotaras/static/js/main.ae6b8de0.js.map",
+    "main.cf55d35f.css.map": "/panagiotaras/static/css/main.cf55d35f.css.map",
+    "main.f6ebfcb6.js.map": "/panagiotaras/static/js/main.f6ebfcb6.js.map",
     "453.c7e09efa.chunk.js.map": "/panagiotaras/static/js/453.c7e09efa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b7e611f7.css",
-    "static/js/main.ae6b8de0.js"
+    "static/css/main.cf55d35f.css",
+    "static/js/main.f6ebfcb6.js"
   ]
 }

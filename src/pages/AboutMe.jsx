@@ -6,8 +6,7 @@ let AboutMe = () => {
         <img src={thinker} alt="Thinker"></img>
         <hr />
         <p className="p">
-            I am a robotics software engineer with a passion for motion planning, dynamical systems, controls and reinforcement learning.
-            <br></br>
+            I am a robotics software engineer working in the field of planning and control, graduated from ETH in 2023.
             Based in Zurich Switzerland, originally from Kalamata, Greece.
         </p>
         <a className='link-style' href="CV.pdf" target="_blank" download>Download CV</a>

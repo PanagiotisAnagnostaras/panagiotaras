@@ -7,7 +7,7 @@ let Pendulum = () => {
         <div>
             <h2>Inverted Pendulum</h2>
             <p>This project is about building a complete application for simulating a cart-pendulum system.</p>
-            <img src={pendulum} alt="pendulum"></img>
+            <img src={pendulum} alt="pendulum" class="responsive-img"></img>
             <p>It consists of three docker containers:
             <ol>
                 <li>Front end</li>

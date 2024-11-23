@@ -75,3 +75,8 @@ hr {
     flex-wrap: wrap;
     /* align-items: center; */
 }
+
+.responsive-img {
+    width: auto;
+    height: auto;
+}

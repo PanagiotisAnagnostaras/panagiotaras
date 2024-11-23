@@ -1,0 +1,12 @@
+version: "3.8"
+services:
+  frontendpublic:
+    tty: true
+    image: front_end_public_image
+    container_name: front_end_public_container
+    volumes:
+      - /home/panagiotis/.ssh/:/.ssh/
+      - .:/front_end_public/
+    ports:
+      - "3001:3001"
+ 

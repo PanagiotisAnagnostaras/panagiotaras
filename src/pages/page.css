@@ -17,6 +17,12 @@ h2 {
     margin-bottom: 2px;
 }
 
+h3 {
+    font-size: 20;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 p {
     font-size: 18px;                /* Slightly larger font size for better readability */
     line-height: 1.6;               /* Increased line height for a more spacious feel */
@@ -38,6 +44,10 @@ p:hover {
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
 }
 
+ol {
+    margin: 20px 0;
+    margin-left: 40px; /* Move the list 40px to the right */
+}
 
 hr {
     border: none;

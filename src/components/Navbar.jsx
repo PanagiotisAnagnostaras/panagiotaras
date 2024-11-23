@@ -8,10 +8,9 @@ const Navbar = () => {
             <Link to="/">Take me Home</Link>
             <Link to="/aboutme">About me</Link>
             <Link to="/projects">Projects</Link>
-            <a href="https://github.com/PanagiotisAnagnostaras" target="_blank">GitHub</a>
         </div>
     )
 
 }
-
+//  <a href="https://github.com/PanagiotisAnagnostaras" target="_blank">GitHub</a>
 export default Navbar;

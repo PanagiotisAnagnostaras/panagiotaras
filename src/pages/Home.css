@@ -1,35 +1,49 @@
-/* Define styles for the link */
+/* General reset for margins and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Style for the header */
+.App-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1f2a35; /* Light background color */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Clean and modern font */
+  color: #333; /* Dark text color for good contrast */
+}
+
+/* Header title */
+.h1 {
+  font-size: 36px;
+  color: #5c6bc0; /* Dark text */
+  font-weight: 600; /* Slightly bolder text */
+  margin-bottom: 20px;
+}
+
+/* Styling for the links */
 .link-style {
-    color: #007bff; /* Blue color */
-    text-decoration: none; /* Remove underline */
-    font-weight: bold; /* Make text bold */
-  }
-  
-  /* Define styles for when the link is hovered over */
-  .link-style:hover {
-    text-decoration: underline; /* Add underline on hover */
-    color: #0056b3; /* Darker blue color */
-  }
-  
-  .h1 {
-    font-size: 40px;
-    background-image: linear-gradient(to bottom, #ff3300, #ff6600, #ffcc00, #ff6600, #ff3300);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: blink-gradient 1s linear infinite alternate;
-  }
-  
-  @keyframes blink-gradient {
-    0% { background-position: 0% 0%; }
-    100% { background-position: 100% 0%; }
-  }
-  
-  
-  @keyframes blink-gradient {
-    0% {
-      background-position: 0% 0%;
-    }
-    100% {
-      background-position: 0% 100%;
-    }
-  }
+  color: #5c6bc0; /* Soft blue color */
+  text-decoration: none; /* Remove underline */
+  font-weight: 500; /* Normal weight for clarity */
+  font-size: 18px;
+  margin: 10px 0;
+  transition: all 0.3s ease-in-out; /* Smooth transition for hover effects */
+}
+
+/* Link hover effect */
+.link-style:hover {
+  color: #3f51b5; /* Slightly darker blue */
+  text-decoration: underline;
+}
+
+/* For spacing between elements and adding a modern touch */
+.App-header a {
+  padding: 10px;
+  text-align: center;
+}
+

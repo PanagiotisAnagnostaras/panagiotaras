@@ -9,7 +9,6 @@ let AboutMe = () => {
             I am a robotics software engineer working in the field of planning and control, graduated from ETH in 2023.
             Based in Zurich Switzerland, originally from Kalamata, Greece.
         </p>
-        <a className='link-style' href="CV.pdf" target="_blank" download>Download CV</a>
         <a className='link-style' href="https://www.linkedin.com/in/panagiotis-anagnostaras-1aa7b5155/" target="_blank">Linkedin account</a>
     </div>)
 }

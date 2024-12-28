@@ -76,7 +76,7 @@ hr {
     /* align-items: center; */
 }
 
-.responsive-img {
-    width: auto;
-    height: auto;
+.image-resized {
+    max-width: 60%;
+    height:  60%;
 }

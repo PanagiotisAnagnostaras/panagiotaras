@@ -1,0 +1,104 @@
+/* Main container for the timeline */
+.timeline-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styling */
+.timeline-title {
+  text-align: center;
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+/* General timeline layout */
+.timeline {
+  position: relative;
+  padding-left: 30px;
+  margin-left: 30px;
+  border-left: 2px solid #6c757d;
+}
+
+/* Each event's styling */
+.timeline-event {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+/* Year section styling */
+.event-year {
+  position: absolute;
+  left: -100px;
+  top: 5px;
+  width: 60px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #007bff;
+}
+
+/* Description section styling */
+.event-description {
+  margin-left: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.event-description h3 {
+  font-size: 1.3rem;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.event-description p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Event marker (circle) styling */
+.timeline-event::before {
+  content: "";
+  position: absolute;
+  left: -10px;
+  top: 10px;
+  height: 20px;
+  width: 20px;
+  background-color: #007bff;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+.timeline-event{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .timeline-container {
+    padding: 15px;
+  }
+
+  .timeline-title {
+    font-size: 1.8rem;
+  }
+
+  .event-year {
+    font-size: 1rem;
+    width: 50px;
+  }
+
+  .event-description h3 {
+    font-size: 1.1rem;
+  }
+
+  .event-description p {
+    font-size: 0.9rem;
+  }
+}

@@ -1,15 +1,14 @@
 import './page.css'
 import thinker from "../images/thinker.jpg"
+import Timeline from '../components/Timeline'
 let AboutMe = () => {
     return (<div>
-        <h2>Who am I</h2>
-        <img src={thinker} alt="Thinker"></img>
+        <h2>About me</h2>
+        <img src={thinker} alt="Thinker" class="image-resized"></img>
         <hr />
-        <p className="p">
-            I am a robotics software engineer working in the field of planning and control, graduated from ETH in 2023.
-            Based in Zurich Switzerland, originally from Kalamata, Greece.
-        </p>
+        <a className='link-style' href="CV.pdf" target="_blank" download>Download CV</a>
         <a className='link-style' href="https://www.linkedin.com/in/panagiotis-anagnostaras-1aa7b5155/" target="_blank">Linkedin account</a>
+        <Timeline />
     </div>)
 }
 

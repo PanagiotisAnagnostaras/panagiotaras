@@ -20,7 +20,10 @@ let Projects = () => {
   }
 
   let normalMode = <div className="projects">
-    <Clickable title="Inverted Pendulum" onClickFun={handleClickPendulum} />
+    <Clickable title="For fun: Inverted Pendulum" onClickFun={handleClickPendulum} />
+    <Clickable title="Academic: Master Thesis" onClickFun={handleClickDefault} />
+    <Clickable title="Academic: Semester Project" onClickFun={handleClickDefault} />
+    <Clickable title="Academic: Diploma Thesis" onClickFun={handleClickDefault} />
   </div>;
 
   let errorMode = <Error onClick={() => { setShowModal(false) }} counter={counter} />

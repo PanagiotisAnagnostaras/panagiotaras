@@ -69,11 +69,12 @@ hr {
 
 .projects {
     display: flex;
-    justify-content: left; /* Adjust as needed */
-    /* Optional: Add additional styling */
-    /* For example: */
-    flex-wrap: wrap;
-    /* align-items: center; */
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically (optional if the container has height) */
+    flex-wrap: wrap; /* Optional: wrap items if they don't fit */
+    /* Optional additional styling */
+    margin: 20px;
 }
 
 .image-resized {

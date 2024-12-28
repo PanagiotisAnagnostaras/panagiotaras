@@ -6,22 +6,23 @@ let Pendulum = () => {
     return (
         <div>
             <h2>Inverted Pendulum</h2>
+            <a className='link-style' href="https://github.com/PanagiotisAnagnostaras/garage" target="_blank">Github repo</a>
             <p>This project is about building a complete application for simulating a cart-pendulum system.</p>
             <img src={pendulum} alt="pendulum" class="responsive-img"></img>
-            <p>It consists of three docker containers:
-            <ol>
-                <li>Front end</li>
-                <li>Back end</li>
-                <li>Physics Simulator</li>
-            </ol>
+            <p>It consists of two docker containers:
+                <ol>
+                    <li>Front end</li>
+                    <li>Back end</li>
+                </ol>
             </p>
             <p>
-            <h3>Front end</h3>
-            Written in Java Script with React. Responsible for setting up the simulation by providing a user friendly format.
-            <h3>Back end</h3>
-            Written in Python with Django. Responsible for receiving the simulation inputs from the user and starting the simulation in the Physics Simulator.
-            <h3>Physics Simulator</h3>
-            Written in C++ with Pistache and Eigen. Uses multithreading to simulate the different parts of the system.
+                <h3>Container 1: front_end_container</h3>
+                Written in JS and uses React
+                Responsible for the user interface and for starting the simulation
+                <h3>Container 2: back_end_container</h3>
+                Written in Python and C++.
+                Python uses Django for the back end server
+                The physics are written in C++ with a Python wrapper. The wrapper uses pybind11.
             </p>
         </div>
     );

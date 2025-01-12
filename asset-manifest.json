@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/panagiotaras/static/css/main.a44e2dee.css",
-    "main.js": "/panagiotaras/static/js/main.dd362be3.js",
+    "main.js": "/panagiotaras/static/js/main.be8727d5.js",
     "static/js/453.c7e09efa.chunk.js": "/panagiotaras/static/js/453.c7e09efa.chunk.js",
-    "static/media/thinker.jpg": "/panagiotaras/static/media/thinker.9751d78ccdcf3902266d.jpg",
+    "static/media/salkantay.jpg": "/panagiotaras/static/media/salkantay.9751d78ccdcf3902266d.jpg",
     "static/media/pendulum.png": "/panagiotaras/static/media/pendulum.a2627c5d5a0fc56f4515.png",
     "index.html": "/panagiotaras/index.html",
     "main.a44e2dee.css.map": "/panagiotaras/static/css/main.a44e2dee.css.map",
-    "main.dd362be3.js.map": "/panagiotaras/static/js/main.dd362be3.js.map",
+    "main.be8727d5.js.map": "/panagiotaras/static/js/main.be8727d5.js.map",
     "453.c7e09efa.chunk.js.map": "/panagiotaras/static/js/453.c7e09efa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a44e2dee.css",
-    "static/js/main.dd362be3.js"
+    "static/js/main.be8727d5.js"
   ]
 }

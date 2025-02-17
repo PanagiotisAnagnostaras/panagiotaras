@@ -9,7 +9,7 @@ let AboutMe = () => {
             <figcaption>Humantay lake, Peru.</figcaption>
         </figure>
         <hr />
-        <a className='link-style' href="CV.pdf" target="_blank" download>Download CV</a>
+        {/* <a className='link-style' href="CV.pdf" target="_blank" download>Download CV</a> */}
         <a className='link-style' href="https://www.linkedin.com/in/panagiotis-anagnostaras-1aa7b5155/" target="_blank">Linkedin account</a>
         <Timeline />
     </div>)

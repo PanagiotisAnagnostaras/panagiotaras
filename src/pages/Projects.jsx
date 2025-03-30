@@ -14,8 +14,8 @@ let Projects = () => {
     setShowModal(showModal => !showModal);
   };
 
-  const handleClickPendulum = () => {
-    let path = `pendulum`;
+  const handleClickRLGarage = () => {
+    let path = `rlgarage`;
     navigate(path);
   }
 
@@ -24,9 +24,21 @@ let Projects = () => {
     navigate(path);
   }
 
+  const handleClickMasterThesis = () => {
+    let path = `masterthesis`;
+    navigate(path);
+  }
+
+  const handleClickSemesterProject = () => {
+    let path = `semesterproject`;
+    navigate(path);
+  }
+
   let normalMode = <div className="projects">
-    <Clickable title="Inverted Pendulum" onClickFun={handleClickPendulum} />
-    <Clickable title="Sandbox" onClickFun={handleClickSandbox} />
+    <Clickable title="RL Garage (ongoing for fun)" onClickFun={handleClickRLGarage} />
+    <Clickable title="Sandbox (ongoing for fun)" onClickFun={handleClickSandbox} />
+    <Clickable title="Master Thesis (academic)" onClickFun={handleClickMasterThesis} />
+    <Clickable title="Semester Project (academic)" onClickFun={handleClickSemesterProject} />
   </div>;
 
   let errorMode = <Error onClick={() => { setShowModal(false) }} counter={counter} />

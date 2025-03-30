@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/panagiotaras/static/css/main.a44e2dee.css",
-    "main.js": "/panagiotaras/static/js/main.47c74386.js",
+    "main.css": "/panagiotaras/static/css/main.d0e142bd.css",
+    "main.js": "/panagiotaras/static/js/main.3e0b78c5.js",
     "static/js/453.c7e09efa.chunk.js": "/panagiotaras/static/js/453.c7e09efa.chunk.js",
     "static/media/salkantay.jpg": "/panagiotaras/static/media/salkantay.9751d78ccdcf3902266d.jpg",
+    "static/media/masterthesis.png": "/panagiotaras/static/media/masterthesis.345a76995974be22f8fc.png",
     "static/media/sandbox.jpg": "/panagiotaras/static/media/sandbox.9e598ae556d27a9902cd.jpg",
     "static/media/pendulum.png": "/panagiotaras/static/media/pendulum.a2627c5d5a0fc56f4515.png",
+    "static/media/garage.png": "/panagiotaras/static/media/garage.6de54c10b3775b88b2a3.png",
     "index.html": "/panagiotaras/index.html",
-    "main.a44e2dee.css.map": "/panagiotaras/static/css/main.a44e2dee.css.map",
-    "main.47c74386.js.map": "/panagiotaras/static/js/main.47c74386.js.map",
+    "main.d0e142bd.css.map": "/panagiotaras/static/css/main.d0e142bd.css.map",
+    "main.3e0b78c5.js.map": "/panagiotaras/static/js/main.3e0b78c5.js.map",
     "453.c7e09efa.chunk.js.map": "/panagiotaras/static/js/453.c7e09efa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a44e2dee.css",
-    "static/js/main.47c74386.js"
+    "static/css/main.d0e142bd.css",
+    "static/js/main.3e0b78c5.js"
   ]
 }
